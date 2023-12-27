@@ -3,3 +3,6 @@
 @import 'tailwindcss/utilities';
 
 /* その他のカスタムスタイルはここに追加 */
+@layer base{
+    h1 {@apply text-2xl font-bold text-cyan-300}
+}
